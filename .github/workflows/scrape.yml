@@ -3,7 +3,7 @@ name: Daily Scrape Banking Data
 on:
   schedule:
     - cron: '0 8 * * *'  # Daily at 8 AM UTC
-  workflow_dispatch:     # Manual run button in GitHub UI
+  workflow_dispatch:
 
 jobs:
   run-scraper:
@@ -23,7 +23,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-        # Install Chromium and necessary libraries
+        # Install Chromium and necessary system packages
         sudo apt-get update
         sudo apt-get install -y \
           wget \
@@ -36,11 +36,9 @@ jobs:
           libgbm1 \
           libgtk-3-0
 
-    - name: Run daily scraper
-      env:
-        DISPLAY: ":99"
+    - name: Run daily scraper using xvfb
       run: |
-        python dailyscraper.py
+        xvfb-run -a python dailyscraper.py
 
     - name: Commit scraped CSVs
       run: |
