@@ -36,16 +36,10 @@ class BankingWebdataScrapper:
     
     def setup_driver(self):
         options = Options()
-
-        # Explicit path to the actual chromedriver binary
-        chrome_driver_dir = ChromeDriverManager(driver_version="135.0.7049.84").install()
+     
+        driver_path = ChromeDriverManager().install()
+        service = Service(driver_path)
     
-        # Fix: ensure we point to the actual binary inside the folder
-        if chrome_driver_dir.endswith("chromedriver-linux64"):
-            chrome_driver_path = os.path.join(chrome_driver_dir, "chromedriver")
-        else:
-            chrome_driver_path = chrome_driver_dir  # fallback
-        service = Service(executable_path=chrome_driver_path)
         return webdriver.Chrome(service=service, options=options)
         
     def openurl(self,url):
