@@ -34,7 +34,7 @@ jobs:
       env:
         DISPLAY: ":99"
       run: |
-        python daily_scraper.py
+        python dailyscraper.py
 
     - name: Commit scraped CSVs
       run: |
