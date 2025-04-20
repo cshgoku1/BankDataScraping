@@ -23,16 +23,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-        # Install Chromium and required libraries
+        # Install Chromium and required libraries for undetected_chromedriver
         sudo apt-get update
         sudo apt-get install -y wget unzip xvfb libxi6 libgconf-2-4 \
           libappindicator1 libnss3 libxss1 libasound2 libatk1.0-0 \
           libatk-bridge2.0-0 libgbm1 libgtk-3-0 chromium-browser
-
-        # Optional chromedriver check (usually not needed for uc)
-        if [ ! -f /usr/bin/chromedriver ]; then
-          sudo cp /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver
-        fi
 
     - name: Run daily scraper
       env:
