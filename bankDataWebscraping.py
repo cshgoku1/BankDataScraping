@@ -36,20 +36,20 @@ class BankingWebdataScrapper:
         self.xpath_next="//div[contains(text(),'Next')]"
     
     def setup_driver(self):
-        """Sets up and returns the Selenium WebDriver."""
-        options = uc.ChromeOptions()
-        options.add_argument("--headless=new") 
-        options.add_argument("--disable-gpu")
-        options.add_argument("--disable-software-rasterizer")
-        options.add_argument("--window-size=1920,1080")
-        options.add_argument("--no-sandbox")
-        options.add_argument("--disable-dev-shm-usage")
-        options.add_argument("start-maximized")
-        options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36")
+    """Sets up and returns the undetected Chrome WebDriver."""
+    options = uc.ChromeOptions()
+    options.add_argument("--headless=new") 
+    options.add_argument("--disable-gpu")
+    options.add_argument("--disable-software-rasterizer")
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("start-maximized")
+    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36")
 
-        # Set up the Chrome driver
-        service = Service(ChromeDriverManager().install())
-        return webdriver.Chrome(service=service, options=options)
+    # Use undetected_chromedriver (uc) directly
+    return uc.Chrome(options=options)
+
     
                 
          
