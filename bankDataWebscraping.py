@@ -35,8 +35,13 @@ class BankingWebdataScrapper:
         self.xpath_next="//div[contains(text(),'Next')]"
     
     def setup_driver(self):
-        service = Service(ChromeDriverManager().install())
-        return webdriver.Chrome(service=service)
+        options = Options()
+
+        driver_path = ChromeDriverManager(driver_version="114.0.5735.90").install()
+
+        service = Service(driver_path)
+
+        return webdriver.Chrome(service=service, options=options)
         
     def openurl(self,url):
         self.driver=self.setup_driver()
