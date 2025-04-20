@@ -37,7 +37,7 @@ class BankingWebdataScrapper:
     def setup_driver(self):
         options = Options()
 
-        driver_path = ChromeDriverManager(driver_version="114.0.5735.90").install()
+        driver_path = ChromeDriverManager(driver_version="135.0.7049.84").install()
 
         service = Service(driver_path)
 
