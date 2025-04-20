@@ -45,7 +45,7 @@ class BankingWebdataScrapper:
     def openurl(self,url):
         self.driver=self.setup_driver()
         self.driver.get(url)
-        self.driver.maximize_window()
+        self.driver.set_window_size(1920, 1080)
     
     def scrapeDataFromTable(self):
         webelement_banknames=self.driver.find_elements(By.XPATH,self.xpath_bankname)
