@@ -38,7 +38,7 @@ class BankingWebdataScrapper:
     def setup_driver(self):
         """Sets up and returns the undetected Chrome WebDriver."""
         options = uc.ChromeOptions()
-        options.add_argument("--headless=new") 
+        options.add_argument("--headless") 
         options.add_argument("--disable-gpu")
         options.add_argument("--disable-software-rasterizer")
         options.add_argument("--window-size=1920,1080")
@@ -48,7 +48,7 @@ class BankingWebdataScrapper:
         options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36")
     
         # Use undetected_chromedriver (uc) directly
-        return uc.Chrome(options=options,use_subprocess=False)
+        return uc.Chrome(options=options,headless=True,use_subprocess=False)
 
     
                 
