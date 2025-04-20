@@ -2,7 +2,7 @@ name: Daily Scrape Banking Data
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # Daily at 8 AM UTC
+    - cron: '0 8 * * *'
   workflow_dispatch:
 
 jobs:
@@ -23,7 +23,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-        # Install Chromium and necessary system packages
+        # Install system packages to support Chrome
         sudo apt-get update
         sudo apt-get install -y \
           wget \
@@ -36,7 +36,7 @@ jobs:
           libgbm1 \
           libgtk-3-0
 
-    - name: Run daily scraper using xvfb
+    - name: Run scraper with virtual display (non-headless Chrome)
       run: |
         xvfb-run -a python dailyscraper.py
 
