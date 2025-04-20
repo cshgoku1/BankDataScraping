@@ -23,11 +23,19 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-        # Install Chromium and required libraries for undetected_chromedriver
+        # Install Chromium and necessary libraries
         sudo apt-get update
-        sudo apt-get install -y wget unzip xvfb libxi6 libgconf-2-4 \
-          libappindicator1 libnss3 libxss1 libasound2 libatk1.0-0 \
-          libatk-bridge2.0-0 libgbm1 libgtk-3-0 chromium-browser
+        sudo apt-get install -y \
+          wget \
+          unzip \
+          xvfb \
+          libnss3 \
+          libxss1 \
+          libatk1.0-0 \
+          libatk-bridge2.0-0 \
+          libgtk-3-0 \
+          libgbm1 \
+          chromium-browser
 
     - name: Run daily scraper
       env:
