@@ -97,7 +97,7 @@ if page == "Market Data Dashboard":
             sorted_display_data = display_data.sort_values(by='BankName').reset_index(drop=True) 
             st.dataframe(sorted_display_data)
         else:
-            st.info("No savings data available yet. Click 'Scrape All Data' to retrieve current rates.")
+            st.info("No savings data available yet.")
 
     
     with tab2:
@@ -127,7 +127,7 @@ if page == "Market Data Dashboard":
             st.dataframe(sorted_display_data)
 
         else:
-            st.info("No CD data available yet. Click 'Scrape All Data' to retrieve current rates.")
+            st.info("No CD data available yet.")
     
     with tab3:
         st.subheader("Top Checking Accounts")
@@ -154,7 +154,7 @@ if page == "Market Data Dashboard":
             sorted_display_data = display_data.sort_values(by='BankName').reset_index(drop=True) 
             st.dataframe(sorted_display_data)
         else:
-            st.info("No checking account data available yet. Click 'Scrape All Data' to retrieve current rates.")
+            st.info("No checking account data available yet. ")
     
     with tab4:
         st.subheader("Top Money Market Accounts")
@@ -181,7 +181,7 @@ if page == "Market Data Dashboard":
             sorted_display_data = display_data.sort_values(by='BankName').reset_index(drop=True) 
             st.dataframe(sorted_display_data)
         else:
-            st.info("No money market data available yet. Click 'Scrape All Data' to retrieve current rates.")
+            st.info("No money market data available yet.")
 
 
 
@@ -226,11 +226,11 @@ elif page == "Customer Portfolio Analysis":
                 recommended_products = [label_map[key] for key, value in predictions.items() if value == 1]
 
                 if recommended_products:
-                    st.success("✅ Recommended Products:")
+                    st.success("Recommended Products:")
                     for product in recommended_products:
                         st.markdown(f"- **{product}**")
                 else:
-                    st.info("ℹ️ No strong product recommendation based on the current input.")
+                    st.info("No strong product recommendation based on the current input.")
 
             except Exception as e:
                 st.error("An error occurred during prediction:")
