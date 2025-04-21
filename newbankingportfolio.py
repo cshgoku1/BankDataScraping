@@ -113,7 +113,7 @@ if page == "Market Data Dashboard":
             df = (df.sort_values('APY_Value', ascending=False).drop_duplicates(subset=['BankName'], keep='first').reset_index(drop=True))
             top10cdrates = df.head(10)
 
-            # 4) plot bar chart of those 10
+            #plot bar chart of those 10
             fig = px.bar(
                 top10cdrates,
                 y='BankName',
