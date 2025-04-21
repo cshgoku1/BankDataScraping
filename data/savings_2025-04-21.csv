@@ -5,7 +5,6 @@ BrioDirect,4.1,$0,4.45%,$25,$5k
 Bread Savings,3.9,$0,4.40%,$100,$100
 First Foundation Bank,4.9,$0,4.40%,$0,$1k
 My Banking Direct,4.7,$0,4.40%,$1,$500
-Texas Capital Bank,4.8,$0,4.40%,$0,$0
 TIMBR,4.6,$0,4.40%,$0,$1k
 Newtek Bank,4.7,$0,4.35%,$0,$0
 EverBank,4.9,$0,4.30%,$0,$0
@@ -68,6 +67,7 @@ Northpointe Bank,3.8,—,3.25%,$25k,$100
 Forbright Bank,4.8,$0,3.15%,$10k,$250
 North American Savings Bank,4.7,$0,3.15%,$0,$1
 Alliant Credit Union,4.0,$1,3.10%,$100,$5
+Coastal Credit Union (NC),4.4,—,3.00%,$10k,$0
 mph.bank,4.6,—,3.00%,$0,—
 Abound Credit Union,5.0,—,2.96%,$0,—
 PenFed Credit Union,4.7,$0,2.80%,$0,$5
@@ -84,52 +84,46 @@ Vio Bank,3.6,$0,1.10%,$100,$100
 Elements Financial,4.9,$0,1.00%,$2.5k,$5
 KS StateBank,3.9,$0,1.00%,$100,$100
 Newtown Savings Bank,4.6,$0,1.00%,$0,$25
-PlainsCapital Bank,3.2,$1.67,1.00%,$100,$100
 First Internet Bank,4.3,$0,0.81%,$0,$25
 Customers Bank,3.2,—,0.75%,$5k,$5k
 Chevron Federal Credit Union,4.3,—,0.75%,$25,$25
 Credit Human,4.0,$0,0.75%,$100,$5
 Amalgamated Bank,4.4,—,0.70%,$0,—
+Members CU (NC),3.5,$3,0.60%,$25,$25
 BB Americas Bank,3.0,—,0.55%,$1k,—
 Pelican State Credit Union,3.2,$0,0.55%,$20k,$10
 FitnessBank,3.1,$10,0.50%,$100,$100
 Vibrant Credit Union,3.8,$0,0.50%,$0,$0
-Frost Bank,3.4,$3.50,0.50%,$15k,—
-Jefferson Bank (TX),3.7,$5,0.50%,$25,$25
+Empeople Credit Union,4.6,—,0.50%,$0,—
 Presidential Bank (MD),4.8,$0,0.50%,$0,$5k
 Thrivent Federal Credit Union,4.0,$0,0.45%,$25k,$0
-The First National Bank of Shiner,4.1,—,0.43%,$0,—
 Northrop Grumman Federal Credit Union,3.7,$2,0.40%,$100,$5
 OneUnited Bank,3.5,$5,0.40%,$100,$100
+"Roxboro Savings Bank, SSB",4.7,—,0.40%,$0,—
 Woodforest National Bank,3.8,$3,0.40%,$10k,$25
 Greenwood Credit Union,4.6,—,0.35%,$1,$5
 Blue Federal Credit Union,4.1,—,0.30%,$0,$0
 Boeing Employees Credit Union (BECU),4.3,—,0.30%,$0,—
 Boeing Employees Credit Union (BECU),4.6,—,0.30%,$0,—
-Castroville State Bank,4.4,$1,0.30%,$0,$50
 Pen Air Credit Union,4.2,—,0.30%,$25k,$5
 Premier America Credit Union,4.1,—,0.30%,$0,—
-Randolph-Brooks Federal Credit Union,4.6,$0,0.30%,$0,$1
 Self-Help Credit Union,4.5,—,0.30%,$0,$5
 Service Credit Union,3.2,—,0.25%,$50,—
-Alamo City Credit Union,3.7,—,0.25%,$5k,—
 Blue Federal Credit Union,5.0,—,0.25%,$0,—
 First Horizon Bank,4.3,$5,0.25%,$0,$50
 iGObanking,4.8,$0,0.25%,$0,$100
-Marion State Bank (TX),3.7,—,0.25%,$100,—
 Pelican State Credit Union,2.9,$0,0.25%,$1k,$0
-Texas Associations Of Professionals Federal Credit Union (TAP FCU),3.7,—,0.25%,$100,—
-Bank OZK,4.1,$3,0.20%,$0,$50
+State Employees' Credit Union (NC),4.3,$1,0.25%,$25,$25
 Elements Financial,3.6,$0,0.20%,$100,—
 OneUnited Bank,2.8,$5,0.20%,$200,$25
 Sun Canyon Bank,3.1,$5,0.20%,$25k,$250
-The First State Bank,3.0,—,0.20%,$50,—
 EastRise Credit Union,4.4,—,0.20%,$0,$5
 Fort Liberty Federal Credit Union,4.4,—,0.20%,$5,$5
-Synergy Federal Credit Union,4.5,$0,0.20%,$0,$5
-The First State Bank,4.1,—,0.20%,$0,—
+RTP Federal Credit Union,3.4,—,0.20%,$100,—
+United Community Bank (SC),3.4,$1.66,0.20%,$2.5k,$100
 American Heritage Credit Union,3.6,—,0.16%,$10k,—
 Northfield Bank,3.8,$8,0.15%,$0,$10
+SouthState Bank,3.5,$5,0.15%,$0,$50
 Valley National Bank,2.8,—,0.15%,$100,—
 Allegacy Federal Credit Union,4.3,$0,0.15%,$0,$5
 Charles Schwab Bank,4.4,$0,0.15%,$0,—
@@ -140,6 +134,7 @@ Library Of Congress Federal Credit Union,3.8,—,0.15%,$0,$5
 MutualOne Bank,4.0,$0,0.15%,$10,$10
 Wings Financial Credit Union,4.2,—,0.15%,$0,$5
 Zions Bank,4.0,$3,0.11%,$25k,$50
+First Citizens Bank (NC),2.6,$0,0.10%,$50,$50
 IncredibleBank,3.6,—,0.10%,$10k,$0
 Marine Federal Credit Union,4.0,—,0.10%,$0,$300
 NASA Federal Credit Union,4.0,—,0.10%,$0,$0
@@ -149,3 +144,8 @@ Abound Credit Union,3.7,$0,0.10%,$10k,$5
 Advancial,3.6,$0,0.10%,$100,$5
 Bayer Heritage Federal Credit Union,4.2,$0,0.10%,$5,$5
 Bellco Credit Union,3.6,—,0.10%,$25,—
+Benchmark Community Bank,3.1,—,0.10%,$100,$100
+Coastal Credit Union (NC),3.8,—,0.10%,$5,$25
+Dover Federal Credit Union,3.5,—,0.10%,$0,—
+FourLeaf Federal Credit Union,4.0,—,0.10%,$5,—
+Hanscom Federal Credit Union,4.0,—,0.10%,$1,$1
