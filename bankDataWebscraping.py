@@ -69,7 +69,7 @@ class BankingWebdataScrapper:
         self.openurl("https://www.depositaccounts.com/savings/")
         wait=WebDriverWait(self.driver,10)
         i=0
-        for j in range(0,2):
+        for j in range(0,10):
             time.sleep(5)  
             try: 
                 for bankname,rating,apy,servicechg,minbal,estearn in zip(*self.scrapeDataFromTable()):
@@ -98,7 +98,7 @@ class BankingWebdataScrapper:
         #open browser
         self.openurl("https://www.depositaccounts.com/cd/")
         i=0
-        for j in range(0,2):
+        for j in range(0,10):
             time.sleep(5)  
             try:
                 for bankname,rating,apy,withdrw,minearn,mindep in zip(*self.scrapeDataFromTable()):
@@ -122,7 +122,7 @@ class BankingWebdataScrapper:
         self.openurl("https://www.depositaccounts.com/checking/")
 
         i=0
-        for j in range(0,2):
+        for j in range(0,6):
             time.sleep(5)  
             try:
                 for bankname,rating,apy,servicecharge,minearn,mindep in zip(*self.scrapeDataFromTable()):
@@ -145,7 +145,7 @@ class BankingWebdataScrapper:
         #open browser
         self.openurl("https://www.depositaccounts.com/moneymarket/")
         i=0
-        for j in range(0,2):
+        for j in range(0,9):
             time.sleep(5)  
             try:
                 for bankname,rating,apy,servicecharge,minearn,mindep in zip(*self.scrapeDataFromTable()):
