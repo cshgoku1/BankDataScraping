@@ -9,6 +9,15 @@ import time
 import random
 from bankDataWebscraping import BankingWebdataScrapper
 from BankingProductRecommender import BankingProductRecommender
+import glob
+import os
+
+def load_latest_csv(data_type):
+    files = glob.glob(f"scraped_data/{data_type}_*.csv")
+    if not files:
+        return pd.DataFrame()
+    latest_file = max(files, key=os.path.getctime)
+    return pd.read_csv(latest_file)
 
 # Set page configuration
 st.set_page_config(
@@ -17,15 +26,15 @@ st.set_page_config(
     layout="wide"
 )
 
-# Initialize session state for storing data
+# Initialize session state by loading the latest scraped data
 if 'savings_data' not in st.session_state:
-    st.session_state.savings_data = pd.DataFrame()
+    st.session_state.savings_data = load_latest_csv("savings")
 if 'cd_data' not in st.session_state:
-    st.session_state.cd_data = pd.DataFrame()
+    st.session_state.cd_data = load_latest_csv("cd")
 if 'checking_data' not in st.session_state:
-    st.session_state.checking_data = pd.DataFrame()
+    st.session_state.checking_data = load_latest_csv("checking")
 if 'mm_data' not in st.session_state:
-    st.session_state.mm_data = pd.DataFrame()
+    st.session_state.mm_data = load_latest_csv("mm")
 
 # Add sample customer data
 if 'customers' not in st.session_state:
@@ -60,29 +69,6 @@ scraper = BankingWebdataScrapper()
 # Market Data Dashboard Page
 if page == "Market Data Dashboard":
     st.header("📊 Banking Product Rates Dashboard")
-    
-    col1, col2 = st.columns([3, 1])
-    
-    with col2:
-        if st.button("Scrape All Data"):
-            with st.spinner("Scraping banking product data..."):
-                # Savings accounts
-                scraper.savingsAccountRates()
-                st.session_state.savings_data = scraper.savingRatedf
-                
-                # CD rates
-                scraper.cdRates()
-                st.session_state.cd_data = scraper.cdRatedf
-                
-                # Checking accounts
-                scraper.checkingAccountRates()
-                st.session_state.checking_data = scraper.checkingRatedf
-                
-                # Money market accounts
-                scraper.moneyMarketRates()
-                st.session_state.mm_data = scraper.moneyMarketRatedf
-                
-                st.success("✅ All data scraped successfully!")
     
     # Display data in tabs
     tab1, tab2, tab3, tab4 = st.tabs(["💰 Savings", "💵 CD", "🪙 Checking", "📈 Money Market"])
