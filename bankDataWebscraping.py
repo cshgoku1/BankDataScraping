@@ -88,7 +88,8 @@ class BankingWebdataScrapper:
             except Exception as e:
                 
                 print("the error is",str(e))   
-        #print(len(webelement_banknames))
+        self.savingRatedf['APY_Value'] = (self.savingsRatedf['APY'].str.extract(r'(\d+\.\d+)').astype(float))
+        self.savingRatedf = (self.savingRatedf.sort_values('APY_Value', ascending=False).drop_duplicates(subset=['BankName'], keep='first').reset_index(drop=True))
         print(self.savingRatedf)
         self.closeBrowser()
 
@@ -137,7 +138,8 @@ class BankingWebdataScrapper:
                 self.driver.find_element(By.XPATH,self.xpath_next).click()
             except Exception as e:
                 print("the error is",str(e))       
-        #print(len(webelement_banknames))
+        self.checkingRatedf['APY_Value'] = (self.checkingRatedf['APY'].str.extract(r'(\d+\.\d+)').astype(float))
+        self.checkingRatedf = (self.checkingRatedf.sort_values('APY_Value', ascending=False).drop_duplicates(subset=['BankName'], keep='first').reset_index(drop=True))
         print(self.checkingRatedf)
         self.closeBrowser()
     
@@ -160,16 +162,12 @@ class BankingWebdataScrapper:
                 self.driver.find_element(By.XPATH,self.xpath_next).click()
             except Exception as e:
                 print("the error is",str(e))      
-        #print(len(webelement_banknames))
-        print(self.checkingRatedf)
+        self.moneyMarketRatedf['APY_Value'] = (self.moneyMarketRatedf['APY'].str.extract(r'(\d+\.\d+)').astype(float))
+        self.moneyMarketRatedf = (self.moneyMarketRatedf.sort_values('APY_Value', ascending=False).drop_duplicates(subset=['BankName'], keep='first').reset_index(drop=True))
+        print(self.moneyMarketRatedf)
         self.closeBrowser()
 
-if __name__ == "__main__":
-    scraper = BankingWebdataScrapper()       # Create an object of the class
-    scraper.savingsAccountRates()
-    scraper.cdRates()
-    scraper.checkingAccountRates()
-    scraper.moneyMarketRates()
+
     
 
         
