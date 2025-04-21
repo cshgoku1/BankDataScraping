@@ -56,29 +56,29 @@ if page == "Market Data Dashboard":
     with tab1:
         st.subheader("Top Savings Accounts")
         if not st.session_state.savings_data.empty:
-            # Add visualization of APY rates
-            if 'APY' in st.session_state.savings_data.columns:
-                # Extract numerical APY values 
-                st.session_state.savings_data['APY_Value'] = st.session_state.savings_data['APY'].str.extract(r'(\d+\.\d+)').astype(float)
-                
-                # Sort by APY value
-                sorted_data = st.session_state.savings_data.sort_values('APY_Value', ascending=False).head(10)
-                
-                # Horizontal bar chart
-                fig = px.bar(
-                    sorted_data,
-                    y='BankName',
-                    x='APY_Value',
-                    orientation='h',
-                    title='Top 10 Savings Account APY Rates',
-                    labels={'APY_Value': 'APY (%)', 'BankName': 'Bank'}
-                )
-                st.plotly_chart(fig, use_container_width=True)
+            #get APY as numeric
+            df = st.session_state.savings_data.copy()
+            df['APY_Value'] = df['APY'].str.extract(r'(\d+\.\d+)').astype(float)
 
-            # Display data table
-            display_data = st.session_state.savings_data.drop(columns=['APY_Value'], errors='ignore')
-            sorted_display_data = display_data.sort_values(by='BankName').reset_index(drop=True) 
-            st.dataframe(sorted_display_data)
+            # retain highest APY
+            df = (df.sort_values('APY_Value', ascending=False).drop_duplicates(subset=['BankName'], keep='first').reset_index(drop=True))
+            top10savingsrates = df.head(10)
+
+            #plot bar chart of those 10
+            fig = px.bar(
+                top10savingsrates,
+                y='BankName',
+                x='APY_Value',
+                orientation='h',
+                title='Top 10 Savings Account APY Rates',
+                labels={'APY_Value': 'APY (%)', 'BankName': 'Bank'}
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+            #display datatable
+            display_data = (top10savingsrates.drop(columns=['APY_Value']).sort_values('BankName').reset_index(drop=True))            
+            st.dataframe(display_data)
+
         else:
             st.info("No savings data available yet.")
 
@@ -117,54 +117,58 @@ if page == "Market Data Dashboard":
     with tab3:
         st.subheader("Top Checking Accounts")
         if not st.session_state.checking_data.empty:
-            if 'APY' in st.session_state.checking_data.columns:
-                st.session_state.checking_data['APY_Value'] = st.session_state.checking_data['APY'].str.extract(r'(\d+\.\d+)').astype(float)
-                    
-                    # Sort by APY value
-                sorted_data = st.session_state.checking_data.sort_values('APY_Value', ascending=False).head(10)
-                
-                # Horizontal bar chart
-                fig = px.bar(
-                    sorted_data,
-                    y='BankName',
-                    x='APY_Value',
-                    orientation='h',
-                    title='Top 10 Checking Account APY Rates',
-                    labels={'APY_Value': 'APY (%)', 'BankName': 'Bank'}
-                )
-                st.plotly_chart(fig, use_container_width=True)
+            #get APY as numeric
+            df = st.session_state.checking_data.copy()
+            df['APY_Value'] = df['APY'].str.extract(r'(\d+\.\d+)').astype(float)
 
-            # Display data table 
-            display_data = st.session_state.checking_data.drop(columns=['APY_Value'], errors='ignore')
-            sorted_display_data = display_data.sort_values(by='BankName').reset_index(drop=True) 
-            st.dataframe(sorted_display_data)
+            # retain highest APY
+            df = (df.sort_values('APY_Value', ascending=False).drop_duplicates(subset=['BankName'], keep='first').reset_index(drop=True))
+            top10checkingrates = df.head(10)
+
+            #plot bar chart of those 10
+            fig = px.bar(
+                top10checkingrates,
+                y='BankName',
+                x='APY_Value',
+                orientation='h',
+                title='Top 10 Checking Account APY Rates',
+                labels={'APY_Value': 'APY (%)', 'BankName': 'Bank'}
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+            #display datatable
+            display_data = (top10checkingrates.drop(columns=['APY_Value']).sort_values('BankName').reset_index(drop=True))            
+            st.dataframe(display_data)
+
         else:
             st.info("No checking account data available yet. ")
     
     with tab4:
         st.subheader("Top Money Market Accounts")
         if not st.session_state.mm_data.empty:
-            if 'APY' in st.session_state.mm_data.columns:
-                st.session_state.mm_data['APY_Value'] = st.session_state.mm_data['APY'].str.extract(r'(\d+\.\d+)').astype(float)
-                    
-                    # Sort by APY value
-                sorted_data = st.session_state.mm_data.sort_values('APY_Value', ascending=False).head(10)
-                
-                # Horizontal bar chart
-                fig = px.bar(
-                    sorted_data,
-                    y='BankName',
-                    x='APY_Value',
-                    orientation='h',
-                    title='Top 10 Money Market Account APY Rates',
-                    labels={'APY_Value': 'APY (%)', 'BankName': 'Bank'}
-                )
-                st.plotly_chart(fig, use_container_width=True)
+            #get APY as numeric
+            df = st.session_state.mm_data.copy()
+            df['APY_Value'] = df['APY'].str.extract(r'(\d+\.\d+)').astype(float)
 
-            # Display data table 
-            display_data = st.session_state.mm_data.drop(columns=['APY_Value'], errors='ignore')
-            sorted_display_data = display_data.sort_values(by='BankName').reset_index(drop=True) 
-            st.dataframe(sorted_display_data)
+            # retain highest APY
+            df = (df.sort_values('APY_Value', ascending=False).drop_duplicates(subset=['BankName'], keep='first').reset_index(drop=True))
+            top10mmrates = df.head(10)
+
+            #plot bar chart of those 10
+            fig = px.bar(
+                top10mmrates,
+                y='BankName',
+                x='APY_Value',
+                orientation='h',
+                title='Top 10 Money Market Account APY Rates',
+                labels={'APY_Value': 'APY (%)', 'BankName': 'Bank'}
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+            #display datatable
+            display_data = (top10mmrates.drop(columns=['APY_Value']).sort_values('BankName').reset_index(drop=True))            
+            st.dataframe(display_data)
+
         else:
             st.info("No money market data available yet.")
 
