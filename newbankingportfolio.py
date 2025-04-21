@@ -125,7 +125,8 @@ if page == "Market Data Dashboard":
             st.plotly_chart(fig, use_container_width=True)
 
             #display datatable
-            display_data = (top10cdrates.drop(columns=['APY_Value']).sort_values('BankName').reset_index(drop=True))            st.dataframe(display_data)
+            display_data = (top10cdrates.drop(columns=['APY_Value']).sort_values('BankName').reset_index(drop=True))            
+            st.dataframe(display_data)
 
         else:
             st.info("No CD data available yet.")
