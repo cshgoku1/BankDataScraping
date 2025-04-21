@@ -1,60 +1,121 @@
 BankName,Rating,ServiceCharge,APY,MinBalance,EstEarnfor50000,APY_Value
 Axos Bank,4.9,$0,4.66%,$0,$0,4.66
 Pibank,4.7,$0,4.60%,$0,$0,4.6
-My Banking Direct,4.7,$0,4.40%,$1,$500,4.4
-First Foundation Bank,4.9,$0,4.40%,$0,$1k,4.4
-TIMBR,4.6,$0,4.40%,$0,$1k,4.4
 Bread Savings,3.9,$0,4.40%,$100,$100,4.4
+TIMBR,4.6,$0,4.40%,$0,$1k,4.4
+First Foundation Bank,4.9,$0,4.40%,$0,$1k,4.4
+My Banking Direct,4.7,$0,4.40%,$1,$500,4.4
 Newtek Bank,4.7,$0,4.35%,$0,$0,4.35
 EverBank,4.9,$0,4.30%,$0,$0,4.3
 SFGI Direct,4.3,$0,4.26%,$1,$500,4.26
+Evergreen Bank Group,4.9,$0,4.25%,$0,$100,4.25
 Ivy Bank,4.4,$0,4.25%,$2.5k,$2.5k,4.25
 Western Alliance Bank,4.6,—,4.25%,$0,$1,4.25
-Evergreen Bank Group,4.9,$0,4.25%,$0,$100,4.25
 CIBC Bank USA,4.9,$0,4.21%,$0,$1k,4.21
 Bask Bank,4.8,$0,4.20%,$0,$0,4.2
-Colorado Federal Savings Bank,4.6,$0,4.20%,$1,$1,4.2
 Live Oak Bank,4.8,$0,4.20%,$0,$0,4.2
-Prime Alliance Bank,4.8,$0,4.15%,$0,—,4.15
-North American Savings Bank,4.2,$7.50,4.15%,$25k,$500,4.15
+Colorado Federal Savings Bank,4.6,$0,4.20%,$1,$1,4.2
 RBMAX,4.0,—,4.15%,$0,$10,4.15
+North American Savings Bank,4.2,$7.50,4.15%,$25k,$500,4.15
+Prime Alliance Bank,4.8,$0,4.15%,$0,—,4.15
 Flagstar Bank,5.0,—,4.11%,$25k,—,4.11
-MySavingsDirect,4.6,$0,4.10%,$0,$1,4.1
 Barclays,4.8,$0,4.10%,$0,$0,4.1
+MySavingsDirect,4.6,$0,4.10%,$0,$1,4.1
 Elevault,4.6,$0,4.08%,$0,$0,4.08
 MutualOne Bank,3.7,$0,4.07%,$20k,$20k,4.07
 Popular Direct,4.8,$0,4.05%,$0,$100,4.05
 Upgrade,3.8,$0,4.02%,$1k,—,4.02
 UFB Direct,4.5,$0,4.01%,$0,$0,4.01
-DollarSavingsDirect,4.6,$0,4.00%,$0,$1,4.0
-Synchrony Bank,4.8,$0,4.00%,$0,$0,4.0
-Wings Financial Credit Union,3.4,—,4.00%,$10k,$10k,4.0
-Presidential Bank (MD),4.8,—,4.00%,$0,$5k,4.0
-Communitywide Federal Credit Union,5.0,—,4.00%,$1,—,4.0
-ConnectOne Bank,3.8,$0,4.00%,$2.5k,$2.5k,4.0
 ableBanking,4.6,—,4.00%,$0,$2.5k,4.0
 E*TRADE from Morgan Stanley,4.8,$0,4.00%,$0,$0,4.0
+Presidential Bank (MD),4.8,—,4.00%,$0,$5k,4.0
+Wings Financial Credit Union,3.4,—,4.00%,$10k,$10k,4.0
+Communitywide Federal Credit Union,5.0,—,4.00%,$1,—,4.0
+DollarSavingsDirect,4.6,$0,4.00%,$0,$1,4.0
+Synchrony Bank,4.8,$0,4.00%,$0,$0,4.0
+ConnectOne Bank,3.8,$0,4.00%,$2.5k,$2.5k,4.0
 PNC Bank,4.9,$0,3.95%,$0,$0,3.95
+GreenState Credit Union,4.6,—,3.90%,$0,$1,3.9
 SmartyPig,4.6,$0,3.90%,$0,—,3.9
 Sallie Mae Bank,4.8,$0,3.90%,$0,$0,3.9
-GreenState Credit Union,4.6,—,3.90%,$0,$1,3.9
 First Technology Federal Credit Union,5.0,—,3.90%,$0,—,3.9
 Amboy Direct,4.5,—,3.82%,$1,$1,3.82
 CNB Bank Direct,4.6,$0,3.80%,$1,$100,3.8
-USALLIANCE Financial,3.5,$0,3.75%,$500,—,3.75
 Valleydirect,4.9,$0,3.75%,$0,$1,3.75
 Marcus by Goldman Sachs,3.7,$0,3.75%,$0,$0,3.75
+USALLIANCE Financial,3.5,$0,3.75%,$500,—,3.75
 Jovia Financial Credit Union,4.4,—,3.75%,$8,—,3.75
 Chime,5.0,—,3.75%,$0,—,3.75
+Citi,3.6,$4.50,3.70%,$0,$0,3.7
+Citizens,4.7,$0,3.70%,$0,$0,3.7
 Discover®,3.9,$0,3.70%,$0,$0,3.7
 The State Exchange Bank,4.6,—,3.70%,$0,$1,3.7
-Citizens,4.7,$0,3.70%,$0,$0,3.7
-Citi,3.6,$4.50,3.70%,$0,$0,3.7
 Lafayette Federal Credit Union,4.3,—,3.66%,$20k,$50,3.66
-Ally Bank,4.9,$0,3.60%,$0,$0,3.6
 BMO Alto,3.5,$0,3.60%,$0,$0,3.6
+Ally Bank,4.9,$0,3.60%,$0,$0,3.6
 Premier Members Credit Union,4.2,—,3.56%,$15k,—,3.56
 EmigrantDirect.com,4.6,$0,3.50%,$0,$1,3.5
 Ideal Credit Union,3.4,—,3.45%,$25k,$25k,3.45
 Seattle Bank,4.1,$10,3.40%,$0,$100,3.4
 Gateway First Bank,4.1,$10,3.40%,$0,$1k,3.4
+FNBO Direct,4.8,$0,3.35%,$0,$1,3.35
+American Heritage Credit Union,2.0,$10,3.35%,$10k,$10k,3.35
+Digital Federal Credit Union (DCU),4.7,$0,3.25%,$0,$0,3.25
+Northpointe Bank,3.8,—,3.25%,$25k,$100,3.25
+Forbright Bank,4.8,$0,3.15%,$10k,$250,3.15
+Alliant Credit Union,4.0,$1,3.10%,$100,$5,3.1
+Coastal Credit Union (NC),4.4,—,3.00%,$10k,$0,3.0
+mph.bank,4.6,—,3.00%,$0,—,3.0
+Abound Credit Union,5.0,—,2.96%,$0,—,2.96
+PenFed Credit Union,4.7,$0,2.80%,$0,$5,2.8
+Dow Credit Union,4.7,—,2.28%,$0,$0,2.28
+Dover Federal Credit Union,4.0,—,2.00%,$0,—,2.0
+Farmers Insurance Federal Credit Union,4.6,$0,2.00%,$0,$0,2.0
+BankPurely,4.5,—,1.50%,$0,$100,1.5
+iGObanking,4.6,$0,1.50%,$0,$100,1.5
+American Bank,4.8,$0,1.50%,$0,$1,1.5
+United Nations Federal Credit Union,4.2,—,1.25%,$25k,—,1.25
+Vio Bank,3.6,$0,1.10%,$100,$100,1.1
+Elements Financial,4.9,$0,1.00%,$2.5k,$5,1.0
+Newtown Savings Bank,4.6,$0,1.00%,$0,$25,1.0
+KS StateBank,3.9,$0,1.00%,$100,$100,1.0
+First Internet Bank,4.3,$0,0.81%,$0,$25,0.81
+Customers Bank,3.2,—,0.75%,$5k,$5k,0.75
+Chevron Federal Credit Union,4.3,—,0.75%,$25,$25,0.75
+Credit Human,4.0,$0,0.75%,$100,$5,0.75
+Amalgamated Bank,4.4,—,0.70%,$0,—,0.7
+Members CU (NC),3.5,$3,0.60%,$25,$25,0.6
+Pelican State Credit Union,3.2,$0,0.55%,$20k,$10,0.55
+BB Americas Bank,3.0,—,0.55%,$1k,—,0.55
+FitnessBank,3.1,$10,0.50%,$100,$100,0.5
+Vibrant Credit Union,3.8,$0,0.50%,$0,$0,0.5
+Empeople Credit Union,4.6,—,0.50%,$0,—,0.5
+Thrivent Federal Credit Union,4.0,$0,0.45%,$25k,$0,0.45
+Woodforest National Bank,3.8,$3,0.40%,$10k,$25,0.4
+"Roxboro Savings Bank, SSB",4.7,—,0.40%,$0,—,0.4
+OneUnited Bank,3.5,$5,0.40%,$100,$100,0.4
+Northrop Grumman Federal Credit Union,3.7,$2,0.40%,$100,$5,0.4
+Greenwood Credit Union,4.6,—,0.35%,$1,$5,0.35
+Blue Federal Credit Union,4.1,—,0.30%,$0,$0,0.3
+Boeing Employees Credit Union (BECU),4.3,—,0.30%,$0,—,0.3
+Pen Air Credit Union,4.2,—,0.30%,$25k,$5,0.3
+Premier America Credit Union,4.1,—,0.30%,$0,—,0.3
+Self-Help Credit Union,4.5,—,0.30%,$0,$5,0.3
+State Employees' Credit Union (NC),4.3,$1,0.25%,$25,$25,0.25
+Service Credit Union,3.2,—,0.25%,$50,—,0.25
+First Horizon Bank,4.3,$5,0.25%,$0,$50,0.25
+United Community Bank (SC),3.4,$1.66,0.20%,$2.5k,$100,0.2
+RTP Federal Credit Union,3.4,—,0.20%,$100,—,0.2
+Fort Liberty Federal Credit Union,4.4,—,0.20%,$5,$5,0.2
+EastRise Credit Union,4.4,—,0.20%,$0,$5,0.2
+Sun Canyon Bank,3.1,$5,0.20%,$25k,$250,0.2
+GTE Financial,3.2,$7,0.15%,$100,$5,0.15
+Library Of Congress Federal Credit Union,3.8,—,0.15%,$0,$5,0.15
+Justice Federal Credit Union,2.6,—,0.15%,$20k,$5,0.15
+Charles Schwab Bank,4.4,$0,0.15%,$0,—,0.15
+Allegacy Federal Credit Union,4.3,$0,0.15%,$0,$5,0.15
+Valley National Bank,2.8,—,0.15%,$100,—,0.15
+SouthState Bank,3.5,$5,0.15%,$0,$50,0.15
+Northfield Bank,3.8,$8,0.15%,$0,$10,0.15
+Zions Bank,4.0,$3,0.11%,$25k,$50,0.11
+Carter Bank & Trust,4.0,—,0.10%,$0,$50,0.1
