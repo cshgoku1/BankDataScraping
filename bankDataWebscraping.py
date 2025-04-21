@@ -88,7 +88,7 @@ class BankingWebdataScrapper:
             except Exception as e:
                 
                 print("the error is",str(e))   
-        self.savingRatedf['APY_Value'] = (self.savingsRatedf['APY'].str.extract(r'(\d+\.\d+)').astype(float))
+        self.savingRatedf['APY_Value'] = (self.savingRatedf['APY'].str.extract(r'(\d+\.\d+)').astype(float))
         self.savingRatedf = (self.savingRatedf.sort_values('APY_Value', ascending=False).drop_duplicates(subset=['BankName'], keep='first').reset_index(drop=True))
         print(self.savingRatedf)
         self.closeBrowser()
