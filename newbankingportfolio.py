@@ -13,7 +13,7 @@ import glob
 import os
 
 def load_latest_csv(data_type):
-    files = glob.glob(f"scraped_data/{data_type}_*.csv")
+    files = glob.glob(f"data/{data_type}_*.csv")
     if not files:
         return pd.DataFrame()
     latest_file = max(files, key=os.path.getctime)
@@ -27,14 +27,11 @@ st.set_page_config(
 )
 
 # Initialize session state by loading the latest scraped data
-if 'savings_data' not in st.session_state:
-    st.session_state.savings_data = load_latest_csv("savings")
-if 'cd_data' not in st.session_state:
-    st.session_state.cd_data = load_latest_csv("cd")
-if 'checking_data' not in st.session_state:
-    st.session_state.checking_data = load_latest_csv("checking")
-if 'mm_data' not in st.session_state:
-    st.session_state.mm_data = load_latest_csv("mm")
+st.session_state.savings_data = load_latest_csv("savings")
+st.session_state.cd_data = load_latest_csv("cd")
+st.session_state.checking_data = load_latest_csv("checking")
+st.session_state.mm_data = load_latest_csv("mm")
+
 
 # Add sample customer data
 if 'customers' not in st.session_state:
