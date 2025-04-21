@@ -33,23 +33,6 @@ st.session_state.checking_data = load_latest_csv("checking")
 st.session_state.mm_data = load_latest_csv("mm")
 
 
-# Add sample customer data
-if 'customers' not in st.session_state:
-    # Create sample customer data
-    st.session_state.customers = pd.DataFrame({
-        'customer_id': range(1, 21),
-        'name': [f"Customer {i}" for i in range(1, 21)],
-        'age': np.random.randint(25, 65, 20),
-        'income': np.random.randint(30000, 150000, 20),
-        'credit_score': np.random.randint(580, 820, 20),
-        'savings_balance': np.random.randint(1000, 100000, 20),
-        'checking_balance': np.random.randint(500, 20000, 20),
-        'mortgage_balance': [random.choice([0] + list(np.random.randint(50000, 500000, 1))) for _ in range(20)],
-        'has_credit_card': [random.choice([True, False]) for _ in range(20)],
-        'investment_balance': np.random.randint(0, 200000, 20),
-        'last_activity': [(datetime.now() - timedelta(days=np.random.randint(1, 60))).strftime('%Y-%m-%d') for _ in range(20)]
-    })
-
 # App title and description
 st.title("🏦 Banking Process Automation System")
 
