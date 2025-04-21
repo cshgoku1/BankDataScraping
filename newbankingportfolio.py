@@ -92,7 +92,7 @@ if page == "Market Data Dashboard":
                 )
                 st.plotly_chart(fig, use_container_width=True)
 
-            # Display data table (excluding APY_Value)
+            # Display data table
             display_data = st.session_state.savings_data.drop(columns=['APY_Value'], errors='ignore')
             sorted_display_data = display_data.sort_values(by='BankName').reset_index(drop=True) 
             st.dataframe(sorted_display_data)
@@ -102,33 +102,34 @@ if page == "Market Data Dashboard":
     
     with tab2:
         st.subheader("Top CD Accounts")
-        if not st.session_state.cd_data.empty:
-            if 'APY' in st.session_state.cd_data.columns:
-                # Extract numerical APY values 
-                st.session_state.cd_data['APY_Value'] = st.session_state.cd_data['APY'].str.extract(r'(\d+\.\d+)').astype(float)
-                
-                # Sort by APY value
-                sorted_data = st.session_state.cd_data.sort_values('APY_Value', ascending=False).head(10)
-                
-                # Horizontal bar chart
-                fig = px.bar(
-                    sorted_data,
-                    y='BankName',
-                    x='APY_Value',
-                    orientation='h',
-                    title='Top 10 CD Account APY Rates',
-                    labels={'APY_Value': 'APY (%)', 'BankName': 'Bank'}
-                )
-                st.plotly_chart(fig, use_container_width=True)
 
-            # Display data table (excluding APY_Value)
-            display_data = st.session_state.cd_data.drop(columns=['APY_Value'], errors='ignore')
-            sorted_display_data = display_data.sort_values(by='BankName').reset_index(drop=True) 
-            st.dataframe(sorted_display_data)
+        if not st.session_state.cd_data.empty :
+
+            #get APY as numeric
+            df = st.session_state.cd_data.copy()
+            df['APY_Value'] = df['APY'].str.extract(r'(\d+\.\d+)').astype(float)
+
+            # retain highest APY
+            df = (df.sort_values('APY_Value', ascending=False).drop_duplicates(subset=['BankName'], keep='first').reset_index(drop=True))
+            top10cdrates = df.head(10)
+
+            # 4) plot bar chart of those 10
+            fig = px.bar(
+                top10cdrates,
+                y='BankName',
+                x='APY_Value',
+                orientation='h',
+                title='Top 10 CD Account APY Rates',
+                labels={'APY_Value': 'APY (%)', 'BankName': 'Bank'}
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+            #display datatable
+            display_data = (top10cdrates.drop(columns=['APY_Value']).sort_values('BankName').reset_index(drop=True))            st.dataframe(display_data)
 
         else:
             st.info("No CD data available yet.")
-    
+        
     with tab3:
         st.subheader("Top Checking Accounts")
         if not st.session_state.checking_data.empty:
@@ -149,7 +150,7 @@ if page == "Market Data Dashboard":
                 )
                 st.plotly_chart(fig, use_container_width=True)
 
-            # Display data table (excluding APY_Value)
+            # Display data table 
             display_data = st.session_state.checking_data.drop(columns=['APY_Value'], errors='ignore')
             sorted_display_data = display_data.sort_values(by='BankName').reset_index(drop=True) 
             st.dataframe(sorted_display_data)
@@ -176,7 +177,7 @@ if page == "Market Data Dashboard":
                 )
                 st.plotly_chart(fig, use_container_width=True)
 
-            # Display data table (excluding APY_Value)
+            # Display data table 
             display_data = st.session_state.mm_data.drop(columns=['APY_Value'], errors='ignore')
             sorted_display_data = display_data.sort_values(by='BankName').reset_index(drop=True) 
             st.dataframe(sorted_display_data)
@@ -234,5 +235,3 @@ elif page == "Customer Portfolio Analysis":
 
             except Exception as e:
                 st.error("An error occurred during prediction:")
-
-
