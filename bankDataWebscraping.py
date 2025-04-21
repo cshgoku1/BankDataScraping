@@ -112,7 +112,8 @@ class BankingWebdataScrapper:
                 self.driver.find_element(By.XPATH,self.xpath_next).click()
             except Exception as e:
                 print("the error is",str(e))       
-        #print(len(webelement_banknames))
+        self.cdRatedf['APY_Value'] = (self.cdRatedf['APY'].str.extract(r'(\d+\.\d+)').astype(float))
+        self.cdRatedf = (self.cdRatedf.sort_values('APY_Value', ascending=False).drop_duplicates(subset=['BankName'], keep='first').reset_index(drop=True))
         print(self.cdRatedf)
         self.closeBrowser()
 
