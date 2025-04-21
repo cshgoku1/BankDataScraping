@@ -1,0 +1,31 @@
+BankName,Rating,EarlyWithDrawalPenalty,APY,MinEarn,MinDeposit
+My eBanc,3.4,90 Days,4.50%,$5k,$5k
+Colorado Federal Savings Bank,3.6,90 Days,4.40%,$5k,$5k
+Communitywide Federal Credit Union,3.0,—,4.40%,$1k,$1k
+USALLIANCE Financial,4.1,180 Days,4.40%,$500,$500
+Veridian Credit Union,4.1,—,4.40%,$1k,—
+EagleBank,3.2,—,4.40%,$1k,$1k
+Marcus by Goldman Sachs,4.6,180 Days,4.40%,$500,$500
+AERO Financial Credit Union,4.0,—,4.35%,$500,$500
+America First Credit Union,5.0,60 Days,4.35%,$500,$500
+America First Credit Union,5.0,60 Days,4.35%,$0,$0
+America First Credit Union,5.0,60 Days,4.35%,$500,$500
+NexBank,3.2,—,4.35%,$10k,$10k
+Seattle Bank,4.0,90 Days,4.35%,$1k,$1k
+Brilliant Bank,3.2,—,4.35%,$1k,$1k
+Sallie Mae Bank,3.7,180 Days,4.35%,$2.5k,$2.5k
+Pelican State Credit Union,4.0,—,4.33%,$500,$500
+Pelican State Credit Union,2.2,—,4.33%,$10k,$10k
+Pen Air Credit Union,5.0,—,4.30%,$500,—
+USALLIANCE Financial,5.0,—,4.30%,$500,—
+Lafayette Federal Credit Union,4.1,180 Days,4.28%,$500,$500
+ableBanking,2.2,—,4.25%,$5k,$5k
+First Technology Federal Credit Union,5.0,—,4.25%,$500,—
+KS StateBank,4.1,180 Days,4.25%,$500,$500
+Mountain America Credit Union,5.0,—,4.25%,$500,—
+Prime Alliance Bank,4.8,30 Days,4.25%,$500,$500
+Sallie Mae Bank,3.6,90 Days,4.25%,$2.5k,$2.5k
+TotalBank,3.6,90 Days,4.25%,$25k,$25k
+Synchrony Bank,4.8,180 Days,4.25%,$0,$0
+America First Credit Union,5.0,60 Days,4.20%,$500,$500
+America First Credit Union,5.0,60 Days,4.20%,$500,$500
