@@ -1,0 +1,99 @@
+BankName,Rating,EarlyWithDrawalPenalty,APY,MinEarn,MinDeposit,APY_Value
+My eBanc,3.4,90 Days,4.45%,$5k,$5k,4.45
+GECU,4.7,90 Days,4.44%,$50,$50,4.44
+Colorado Federal Savings Bank,3.6,90 Days,4.40%,$5k,$5k,4.4
+Communitywide Federal Credit Union,3.0,—,4.40%,$1k,$1k,4.4
+Sallie Mae Bank,3.6,90 Days,4.40%,$2.5k,$2.5k,4.4
+Veridian Credit Union,4.1,—,4.40%,$1k,—,4.4
+EagleBank,3.2,—,4.40%,$1k,$1k,4.4
+Providence Bank (NC),4.3,—,4.40%,$1k,—,4.4
+State Employees' Credit Union (NC),4.7,—,4.40%,$250,$250,4.4
+NexBank,3.2,—,4.35%,$10k,$10k,4.35
+Seattle Bank,4.0,90 Days,4.35%,$1k,$1k,4.35
+Brilliant Bank,3.2,—,4.35%,$1k,$1k,4.35
+USALLIANCE Financial,4.1,180 Days,4.30%,$500,$500,4.3
+Lafayette Federal Credit Union,4.1,180 Days,4.28%,$500,$500,4.28
+ableBanking,2.2,—,4.25%,$5k,$5k,4.25
+AmeriCU,3.9,120 Days,4.25%,$500,$500,4.25
+First Technology Federal Credit Union,5.0,—,4.25%,$500,—,4.25
+KS StateBank,4.1,180 Days,4.25%,$500,$500,4.25
+Prime Alliance Bank,4.8,30 Days,4.25%,$500,$500,4.25
+TotalBank,3.6,90 Days,4.25%,$25k,$25k,4.25
+Mountain America Credit Union,5.0,—,4.25%,$500,—,4.25
+Synchrony Bank,4.8,180 Days,4.25%,$0,$0,4.25
+First Internet Bank,3.4,180 Days,4.20%,$1k,$1k,4.2
+Peak Bank,3.8,—,4.16%,$1k,—,4.16
+Salem Five,2.0,—,4.15%,$10k,—,4.15
+Service Credit Union,4.7,—,4.15%,$500,—,4.15
+American Bank,4.6,90 Days,4.15%,$500,$500,4.15
+All In Credit Union (AL),3.8,—,4.13%,$1k,—,4.13
+Achieva Credit Union,4.0,—,4.10%,$500,$500,4.1
+American Heritage Credit Union,3.1,180 Days,4.10%,$1k,$500,4.1
+EverBank,3.8,—,4.10%,$1k,—,4.1
+Marcus by Goldman Sachs,4.6,180 Days,4.10%,$500,$500,4.1
+NASA Federal Credit Union,2.5,182 Days,4.09%,$10k,$10k,4.09
+RTP Federal Credit Union,4.7,—,4.08%,$250,—,4.08
+Self-Help Credit Union,4.5,90 Days,4.08%,$500,$500,4.08
+Vision Financial Federal Credit Union,4.7,—,4.07%,$0,—,4.07
+Merrick Bank,2.0,—,4.05%,$25k,$25k,4.05
+The Federal Savings Bank,3.4,—,4.05%,$5k,—,4.05
+Luana Savings Bank,3.6,—,4.04%,$2k,—,4.04
+Presidential Bank (MD),3.1,180 Days,4.00%,$1k,$1k,4.0
+American Express®,3.6,270 Days,4.00%,$0,$0,4.0
+ConnectOne Bank,4.7,180 Days,4.00%,$500,$500,4.0
+CFG Bank,3.8,—,4.00%,$500,$500,4.0
+Northrop Grumman Federal Credit Union,3.2,90 Days,4.00%,$2.5k,$2.5k,4.0
+Consumers Credit Union (IL),4.7,—,4.00%,$250,—,4.0
+E*TRADE from Morgan Stanley,4.6,—,4.00%,$0,$0,4.0
+Greenwood Credit Union,4.0,180 Days,4.00%,$1k,$1k,4.0
+Popular Direct,2.1,270 Days,4.00%,$10k,$10k,4.0
+"Santander Bank, N.A",3.8,—,4.00%,$500,$500,4.0
+Northwest Federal Credit Union,3.1,180 Days,4.00%,$1k,$1k,4.0
+Bask Bank,3.9,180 Days,4.00%,$1k,$1k,4.0
+Dover Federal Credit Union,4.5,90 Days,4.00%,$500,$500,4.0
+Matadors Community Credit Union,2.8,—,4.00%,$1k,$1k,4.0
+Barclays,4.8,90 Days,4.00%,$0,$0,4.0
+Capital One,4.6,90 Days,4.00%,$0,$0,4.0
+Citi,4.0,180 Days,4.00%,$0,$500,4.0
+Credit Human,3.8,180 Days,4.00%,$500,$500,4.0
+Discover®,3.9,180 Days,4.00%,$0,$0,4.0
+Empeople Credit Union,4.6,90 Days,4.00%,$500,$500,4.0
+Evergreen Bank Group,4.7,90 Days,4.00%,$500,$500,4.0
+Fort Liberty Federal Credit Union,3.0,90 Days,4.00%,$25k,$25k,4.0
+Hanscom Federal Credit Union,3.8,—,4.00%,$1k,—,4.0
+Ideal Credit Union,4.6,90 Days,4.00%,$500,$500,4.0
+iGObanking,3.8,—,4.00%,$1k,—,4.0
+MainStreet Bank,4.4,90 Days,4.00%,$500,$500,4.0
+Sun Canyon Bank,3.4,180 Days,3.96%,$5k,$5k,3.96
+Chevron Federal Credit Union,4.7,—,3.90%,$500,—,3.9
+Spectrum Credit Union,3.8,—,3.90%,$500,$500,3.9
+Langley Federal Credit Union,4.6,180 Days,3.90%,$500,$500,3.9
+Live Oak Bank,3.8,90 Days,3.90%,$2.5k,$2.5k,3.9
+Ally Bank,4.6,60 Days,3.85%,$0,$0,3.85
+Manasquan Bank,4.6,180 Days,3.85%,$500,$500,3.85
+Hughes Federal Credit Union,3.7,90 Days,3.82%,$1k,$1k,3.82
+Marine Federal Credit Union,4.1,180 Days,3.82%,$1k,$1k,3.82
+Vio Bank,3.6,—,3.80%,$500,$500,3.8
+Bread Savings,3.5,180 Days,3.80%,$1.5k,$1.5k,3.8
+State Bank of Texas (SBT),4.1,—,3.80%,$1k,$50k,3.8
+CIBC Bank USA,4.2,30 Days,3.76%,$1k,$1k,3.76
+Technology Credit Union,3.8,180 Days,3.75%,$1k,$1k,3.75
+Pinnacle Federal Credit Union,3.3,365 Days,3.75%,$500,$500,3.75
+Teachers Federal Credit Union,3.0,180 Days,3.75%,$1k,$1k,3.75
+"Roxboro Savings Bank, SSB",2.4,—,3.75%,$5k,—,3.75
+Regions Bank,4.0,—,3.75%,$500,—,3.75
+Library Of Congress Federal Credit Union,3.6,180 Days,3.75%,$500,$500,3.75
+Blue Federal Credit Union,3.6,90 Days,3.75%,$1k,$1k,3.75
+GTE Financial,4.4,180 Days,3.71%,$500,$500,3.71
+Bellco Credit Union,4.4,90 Days,3.70%,$500,$500,3.7
+Gateway First Bank,4.4,—,3.70%,$500,—,3.7
+Valley National Bank,4.4,—,3.65%,$500,—,3.65
+SunWest,4.0,—,3.65%,$500,—,3.65
+UNIFY Financial Credit Union,4.3,90 Days,3.63%,$100,$100,3.63
+Banesco USA,4.3,180 Days,3.60%,$0,$1k,3.6
+First Central Savings Bank,3.4,—,3.60%,$500,$500,3.6
+Corporate America Family Credit Union,3.7,60 Days,3.56%,$10k,$1k,3.56
+NuVision Federal Credit Union,2.4,—,3.55%,$25k,$1k,3.55
+Pennsylvania State Employees Credit Union,4.4,90 Days,3.55%,$500,$500,3.55
+Crescent Bank,3.4,90 Days,3.50%,$1k,$1k,3.5
+Orion Federal Credit Union,3.2,—,3.50%,$500,$500,3.5
