@@ -1,0 +1,32 @@
+BankName,Rating,EarlyWithDrawalPenalty,APY,MinEarn,MinDeposit,APY_Value
+BCU,5.0,—,4.50%,$500,—,4.5
+Northern Bank Direct,4.0,180 Days,4.50%,$500,$500,4.5
+Genisys Credit Union,4.8,90 Days,4.48%,$500,$500,4.48
+My eBanc,3.4,90 Days,4.45%,$5k,$5k,4.45
+GECU,4.7,90 Days,4.44%,$50,$50,4.44
+Library Of Congress Federal Credit Union,4.1,180 Days,4.42%,$500,$500,4.42
+EagleBank,3.2,—,4.40%,$1k,$1k,4.4
+First Internet Bank,3.4,180 Days,4.40%,$1k,$1k,4.4
+Communitywide Federal Credit Union,3.0,—,4.40%,$1k,$1k,4.4
+Colorado Federal Savings Bank,3.6,90 Days,4.40%,$5k,$5k,4.4
+Seattle Bank,4.0,90 Days,4.35%,$1k,$1k,4.35
+NexBank,3.2,—,4.35%,$10k,$10k,4.35
+Brilliant Bank,3.2,—,4.30%,$1k,$1k,4.3
+Sallie Mae Bank,3.7,180 Days,4.30%,$2.5k,$2.5k,4.3
+USALLIANCE Financial,4.1,180 Days,4.30%,$500,$500,4.3
+Lafayette Federal Credit Union,4.1,180 Days,4.28%,$500,$500,4.28
+Liberty Federal Credit Union,5.0,—,4.25%,$0,—,4.25
+TotalBank,3.6,90 Days,4.25%,$25k,$25k,4.25
+Prime Alliance Bank,4.8,30 Days,4.25%,$500,$500,4.25
+Mountain America Credit Union,5.0,—,4.25%,$500,—,4.25
+AmeriCU,3.9,120 Days,4.25%,$500,$500,4.25
+ableBanking,2.2,—,4.25%,$5k,$5k,4.25
+TAB Bank,4.2,90 Days,4.21%,$1k,$1k,4.21
+Merrick Bank,2.2,—,4.20%,$25k,$25k,4.2
+Utah First Federal Credit Union,2.2,—,4.20%,$2k,$2k,4.2
+Newtek Bank,3.3,180 Days,4.20%,$2.5k,$2.5k,4.2
+KS StateBank,4.1,180 Days,4.20%,$500,$500,4.2
+NASA Federal Credit Union,2.5,182 Days,4.19%,$10k,$10k,4.19
+First National Bank of America,4.2,90 Days,4.16%,$1k,$1k,4.16
+Peak Bank,4.1,—,4.16%,$1k,—,4.16
+American Bank,4.7,90 Days,4.15%,$500,$500,4.15
