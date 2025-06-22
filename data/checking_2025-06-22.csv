@@ -1,0 +1,46 @@
+BankName,Rating,ServiceCharge,APY,MinEarn,MinDeposit,APY_Value
+Primis Bank,4.5,—,4.20%,$0,$1,4.2
+Forbright Bank,3.4,$0,3.00%,$2.5k,$25,3.0
+ZYNLO Bank,4.8,$0,2.00%,$0,$0,2.0
+Paramount Bank (MO),4.6,$0,2.00%,$0,$100,2.0
+CFG Bank,3.7,—,1.75%,$20k,$50,1.75
+Vibrant Credit Union,4.2,$0,1.50%,$0,$0,1.5
+MainStreet Bank,3.8,$15,1.25%,$25k,$50,1.25
+National Cooperative Bank,3.6,$15,1.16%,$0,$0,1.16
+Notre Dame Federal Credit Union,3.0,—,1.00%,$5k,—,1.0
+NASA Federal Credit Union,3.8,$10,1.00%,$0,$0,1.0
+Bask Bank,4.6,$0,1.00%,$0,$0,1.0
+American Bank,4.4,$0,1.00%,$0,$1,1.0
+Langley Federal Credit Union,3.2,—,0.75%,$10k,$0,0.75
+PlainsCapital Bank,2.4,$20,0.65%,$25k,$100,0.65
+Amalgamated Bank,4.0,—,0.55%,$2.5k,—,0.55
+Utah First Federal Credit Union,3.4,$0,0.50%,$25k,—,0.5
+First Internet Bank,3.6,$10,0.50%,$500,$100,0.5
+Communitywide Federal Credit Union,4.4,—,0.50%,$1,$5,0.5
+PenFed Credit Union,4.1,$10,0.35%,$20k,$25,0.35
+Woodforest National Bank,2.8,$10,0.35%,$1k,$25,0.35
+Wells Fargo Bank,3.8,$35,0.35%,$0,$25,0.35
+Rising Bank,3.6,$0,0.30%,$1k,$1k,0.3
+Citizens State Bank (6194),4.3,$6,0.29%,$1.5k,$0,0.29
+Giantbank.com,3.6,—,0.25%,$1k,$100,0.25
+EverBank,4.6,$0,0.25%,$0,$100,0.25
+CIT Bank,4.4,$0,0.25%,$25k,$100,0.25
+Northpointe Bank,3.2,—,0.25%,$25k,$2.5k,0.25
+Pima Federal Credit Union,4.2,$0,0.25%,$0,—,0.25
+The First State Bank,3.4,—,0.25%,$1.5k,—,0.25
+Dow Credit Union,4.2,—,0.25%,$0,$0,0.25
+Ally Bank,4.6,$0,0.25%,$15k,$0,0.25
+Alliant Credit Union,4.6,$0,0.25%,$0,$25,0.25
+"The Lytle State Bank of Lytle, Texas",3.7,—,0.20%,$500,—,0.2
+Marion State Bank (TX),3.4,—,0.20%,$1k,—,0.2
+Newtown Savings Bank,3.2,$25,0.20%,$0,$25,0.2
+Security Service Federal Credit Union,3.6,$9,0.20%,$25k,$25,0.2
+The First National Bank of Shiner,4.1,—,0.20%,$0,—,0.2
+Lake Michigan Credit Union,2.4,$10,0.20%,$25k,—,0.2
+Bank OZK,3.4,$12,0.20%,$0,$50,0.2
+MutualOne Bank,3.8,$8,0.15%,$5k,$100,0.15
+Service Credit Union,4.0,—,0.15%,$0,—,0.15
+Border Federal Credit Union,3.7,—,0.15%,$500,—,0.15
+Affinity Plus Federal Credit Union,3.5,$6,0.13%,$200,—,0.13
+American Heritage Credit Union,2.2,$10,0.11%,$7.5k,$7.5k,0.11
+Advancial,4.0,$0,0.10%,$10k,$0,0.1
