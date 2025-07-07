@@ -1,0 +1,128 @@
+BankName,Rating,ServiceCharge,APY,MinEarn,MinDeposit,APY_Value
+TotalBank,4.0,$0,4.41%,$2.5k,$25k,4.41
+Brilliant Bank,4.5,—,4.35%,$1k,$1k,4.35
+CFG Bank,4.3,$10,4.32%,$1k,$1k,4.32
+Vio Bank,5.0,$0,4.31%,$0,$100,4.31
+ZYNLO Bank,5.0,$0,4.31%,$0,$0,4.31
+First Foundation Bank,5.0,$0,4.25%,$0,$1k,4.25
+Harborstone Credit Union,4.8,—,4.25%,$1,$1,4.25
+Merchants Bank of Indiana,5.0,$0,4.25%,$0,$50,4.25
+My eBanc,4.4,$15,4.25%,$0,$5k,4.25
+Quontic Bank,5.0,$0,4.25%,$0,$100,4.25
+First Flight Federal Credit Union,3.8,—,4.07%,$10k,—,4.07
+Prime Alliance Bank,5.0,$0,4.05%,$0,—,4.05
+UFB Direct,4.9,$10,4.01%,$0,$0,4.01
+EverBank,5.0,$0,4.00%,$10k,$0,4.0
+Virtual Bank,5.0,—,4.00%,$0,—,4.0
+iGObanking,3.2,$0,4.00%,$25k,$25k,4.0
+Redneck Bank,5.0,$0,4.00%,$0,$500,4.0
+Bank of Blue Valley,5.0,—,3.95%,$0,—,3.95
+BankPurely,3.6,—,3.90%,$25k,$25k,3.9
+Sallie Mae Bank,5.0,$0,3.85%,$0,$0,3.85
+CNB Bank Direct,3.2,$0,3.80%,$25k,$25k,3.8
+Western State Bank,4.8,$0,3.75%,$0,$5k,3.75
+First Internet Bank,5.0,$5,3.61%,$0,$100,3.61
+FNBO Direct,5.0,$0,3.60%,$25k,$0,3.6
+Kinecta Federal Credit Union,5.0,$0,3.50%,$0,$25,3.5
+Ally Bank,5.0,$0,3.50%,$0,$0,3.5
+Spectrum Credit Union,4.8,$0,3.40%,$25k,$0,3.4
+Chevron Federal Credit Union,5.0,$0,3.40%,$25k,$0,3.4
+Vibrant Credit Union,4.7,—,3.33%,$0,—,3.33
+Gateway First Bank,4.7,—,3.25%,$25k,—,3.25
+Northpointe Bank,3.8,$0,3.25%,$25k,$100,3.25
+Bank5 Connect,4.0,—,3.03%,$100,—,3.03
+nbkc bank,5.0,—,3.00%,$0,$0,3.0
+Fort Bragg Federal Credit Union,3.5,—,3.00%,$2.5k,—,3.0
+BankUnited,3.0,$15,3.00%,$2.5k,$2.5k,3.0
+Bellco Credit Union,4.1,$10,2.70%,$10k,$1k,2.7
+American Heritage Credit Union,3.7,$10,2.65%,$25k,$2k,2.65
+National Cooperative Bank,3.6,$25,2.53%,$0,$100,2.53
+Sun Canyon Bank,3.3,$10,2.53%,$2.5k,$2.5k,2.53
+ConnectOne Bank,4.3,$10,2.50%,$25k,$1k,2.5
+Manasquan Bank,4.7,—,2.50%,$0,—,2.5
+The Federal Savings Bank,3.3,—,2.50%,$2k,$2k,2.5
+Affinity Plus Federal Credit Union,2.1,$20,2.50%,$10k,—,2.5
+Pennsylvania State Employees Credit Union,4.8,—,2.50%,$500,—,2.5
+Achieva Credit Union,3.4,—,2.25%,$10k,—,2.25
+Finworth,2.8,—,2.22%,$10k,$10k,2.22
+Latino Credit Union,4.6,$5,2.22%,$500,$500,2.22
+Utah First Federal Credit Union,5.0,—,2.10%,$25k,—,2.1
+Self-Help Federal Credit Union,3.8,$5,2.08%,$500,$500,2.08
+State Employees' Credit Union (NC),4.6,$2,2.02%,$0,$250,2.02
+KS StateBank,5.0,$0,2.02%,$25k,$2.5k,2.02
+American Bank,4.8,$0,2.00%,$0,$1,2.0
+Connexus Credit Union,4.6,—,2.00%,$20k,$1k,2.0
+Credit Human,4.6,$7,2.00%,$10k,$1k,2.0
+Synchrony Bank,4.6,$0,2.00%,$0,$0,2.0
+Allegacy Federal Credit Union,4.6,$0,1.80%,$25k,$50,1.8
+Digital Federal Credit Union (DCU),4.6,$0,1.77%,$25k,$0,1.77
+BB Americas Bank,3.6,$20,1.75%,$10k,$1k,1.75
+Genisys Credit Union,3.8,—,1.71%,$25k,$2.5k,1.71
+CoVantage Credit Union,4.4,—,1.65%,$25k,—,1.65
+NASA Federal Credit Union,4.3,$10,1.65%,$0,$25k,1.65
+Library Of Congress Federal Credit Union,3.5,—,1.61%,$20k,$2.5k,1.61
+CIT Bank,4.0,$0,1.55%,$0,$100,1.55
+IncredibleBank,4.5,$10,1.51%,$10k,$0,1.51
+Northrop Grumman Federal Credit Union,3.2,—,1.50%,$2.5k,$2.5k,1.5
+Centra Credit Union,5.0,$0,1.50%,$25k,—,1.5
+Princeton Federal Credit Union,3.4,—,1.50%,$7.5k,—,1.5
+Regions Bank,3.6,$15,1.50%,$10k,$100,1.5
+Oklahoma Central Credit Union,5.0,—,1.50%,$0,—,1.5
+Veridian Credit Union,3.8,$0,1.45%,$2.5k,—,1.45
+Grow Financial Federal Credit Union,4.4,—,1.36%,$25k,—,1.36
+All In Credit Union (AL),4.0,—,1.31%,$25k,$0,1.31
+MainStreet Bank,4.4,—,1.25%,$25k,$2.5k,1.25
+Woodforest National Bank,4.0,$25,1.25%,$0,$25,1.25
+Quorum Federal Credit Union,4.4,$0,1.20%,$25k,—,1.2
+Citizens State Bank (6194),4.0,—,1.11%,$25k,$0,1.11
+RTP Federal Credit Union,3.4,—,1.01%,$1k,—,1.01
+United States Senate Federal Credit Union,3.6,$0,1.01%,$20k,$2k,1.01
+American 1 Credit Union,2.6,$5,1.00%,$5k,$5k,1.0
+Skyla Credit Union,4.0,—,1.00%,$1k,$1k,1.0
+Boeing Employees Credit Union (BECU),4.4,$0,1.00%,$10k,—,1.0
+Pen Air Credit Union,3.1,$10,1.00%,$25k,$2.5k,1.0
+Mirastar Federal Credit Union,2.2,—,1.00%,$2.5k,$2.5k,1.0
+Greenwood Credit Union,3.4,$0,1.00%,$2.5k,$2.5k,1.0
+GECU,3.2,—,1.00%,$2.5k,$2.5k,1.0
+Langley Federal Credit Union,3.6,—,1.00%,$25k,$0,1.0
+Southeast Financial Credit Union,3.2,—,0.90%,$10k,$0,0.9
+Technology Credit Union,3.6,$0,0.85%,$25k,—,0.85
+Amegy Bank,3.0,$12,0.80%,$1k,$500,0.8
+Marine Federal Credit Union,5.0,—,0.75%,$0,$0,0.75
+Sharonview Federal Credit Union,2.7,—,0.75%,$5k,—,0.75
+AgFed Credit Union,3.7,—,0.75%,$10k,$0,0.75
+Pasadena Federal Credit Union,2.8,—,0.75%,$10k,$2.5k,0.75
+Abound Credit Union,3.4,—,0.75%,$10k,$0,0.75
+First Horizon Bank,3.7,$9,0.70%,$25k,$50,0.7
+NuVision Federal Credit Union,3.4,—,0.70%,$25k,$2.5k,0.7
+Service Credit Union,3.4,$5,0.70%,$25k,—,0.7
+UNIFY Financial Credit Union,2.5,—,0.65%,$10k,$2.5k,0.65
+Northwest Federal Credit Union,4.0,—,0.65%,$25k,$0,0.65
+GTE Financial,4.0,—,0.65%,$10k,$1,0.65
+Consumers Credit Union (IL),3.7,—,0.65%,$25k,—,0.65
+Magnifi Financial,3.8,$0,0.65%,$25k,$2.5k,0.65
+Alabama Credit Union,4.1,—,0.60%,$25k,$2.5k,0.6
+"Roxboro Savings Bank, SSB",3.7,—,0.60%,$25k,—,0.6
+Summit Credit Union,2.7,—,0.60%,$1k,—,0.6
+SunWest,3.0,—,0.60%,$25k,—,0.6
+Teachers Federal Credit Union,3.4,$5,0.60%,$25k,$2.5k,0.6
+Velocity Credit Union,2.9,$10,0.60%,$2k,$1k,0.6
+Chartway Federal Credit Union,2.2,—,0.55%,$25k,—,0.55
+Advancial,2.8,$0,0.51%,$25k,$2.5k,0.51
+AmeriCU,3.7,—,0.50%,$25k,$0,0.5
+Pima Federal Credit Union,4.6,—,0.50%,$1k,—,0.5
+Liberty Federal Credit Union,3.4,—,0.50%,$25k,$1k,0.5
+Newtown Savings Bank,2.7,$20,0.50%,$20,$0,0.5
+Patriot Bank (CT),4.0,$12,0.50%,$0,$100,0.5
+Paramount Bank (MO),3.5,$10,0.50%,$0,$100,0.5
+KeyBank,2.8,$20,0.50%,$25k,$5k,0.5
+St. Mary's Bank,2.7,$10,0.45%,$10k,$10,0.45
+True Sky Credit Union,2.5,—,0.45%,$25k,—,0.45
+Zions Bank,4.0,$0,0.45%,$1k,$500,0.45
+Benchmark Community Bank,3.7,—,0.40%,$25k,—,0.4
+Valley National Bank,2.6,$25,0.40%,$10k,$10k,0.4
+EastRise Credit Union,5.0,—,0.34%,$0,—,0.34
+Axos Bank,3.4,$0,0.25%,$0,—,0.25
+U.S. Bank,4.7,—,0.25%,$25k,—,0.25
+Giantbank.com,2.4,—,0.25%,$1k,$1k,0.25
+Patelco Credit Union,4.6,$0,0.25%,$0,$1,0.25
