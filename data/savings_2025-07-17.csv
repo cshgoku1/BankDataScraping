@@ -1,0 +1,87 @@
+BankName,Rating,ServiceCharge,APY,MinBalance,EstEarnfor50000,APY_Value
+Axos Bank,4.9,$0,4.66%,$0,$0,4.66
+Elevault,4.6,$0,4.60%,$0,$0,4.6
+Pibank,4.7,$0,4.60%,$0,$0,4.6
+EagleBank,3.8,$0,4.40%,$0,—,4.4
+TIMBR,4.6,$0,4.40%,$0,$1k,4.4
+Primis Bank,4.7,$0,4.35%,$0,$1,4.35
+Newtek Bank,4.7,$0,4.35%,$0,$0,4.35
+My Banking Direct,4.7,$0,4.30%,$1,$500,4.3
+Bread Savings,3.9,$0,4.30%,$100,$100,4.3
+BrioDirect,4.1,$0,4.30%,$25,$5k,4.3
+EverBank,4.9,$0,4.30%,$0,$0,4.3
+Rising Bank,3.6,—,4.30%,$1k,$1k,4.3
+Western Alliance Bank,4.6,—,4.25%,$0,$1,4.25
+Ivy Bank,4.4,$0,4.25%,$2.5k,$2.5k,4.25
+First Foundation Bank,4.9,$0,4.25%,$0,$1k,4.25
+Bask Bank,4.8,$0,4.20%,$0,$0,4.2
+Jenius Bank,3.7,$0,4.20%,$0,$0,4.2
+Colorado Federal Savings Bank,4.6,$0,4.20%,$1,$1,4.2
+RBMAX,4.0,—,4.15%,$0,$10,4.15
+TAB Bank,4.8,$0,4.15%,$0,$0,4.15
+Live Oak Bank,4.8,$0,4.10%,$0,$0,4.1
+SFGI Direct,4.3,$0,4.08%,$1,$500,4.08
+MutualOne Bank,3.7,$0,4.07%,$20k,$20k,4.07
+Prime Alliance Bank,4.8,$0,4.05%,$0,—,4.05
+Popular Direct,4.8,$0,4.05%,$0,$100,4.05
+Bank5 Connect,3.5,$0,4.05%,$25k,$25k,4.05
+CIBC Bank USA,4.9,$0,4.02%,$0,$1k,4.02
+Upgrade,3.8,$0,4.02%,$1k,—,4.02
+UFB Direct,4.5,$0,4.01%,$0,$0,4.01
+Salem Five Direct,4.9,$0,4.01%,$0,$10,4.01
+ableBanking,4.6,—,4.00%,$0,$2.5k,4.0
+ConnectOne Bank,3.8,$0,4.00%,$2.5k,$2.5k,4.0
+E*TRADE from Morgan Stanley,4.8,$0,4.00%,$0,$0,4.0
+Flagstar Bank,5.0,—,4.00%,$25k,—,4.0
+Presidential Bank (MD),4.8,—,4.00%,$0,$5k,4.0
+Wings Financial Credit Union,3.4,—,4.00%,$10k,$10k,4.0
+Communitywide Federal Credit Union,5.0,—,4.00%,$1,—,4.0
+North American Savings Bank,4.2,$7.50,4.00%,$25k,$500,4.0
+Andrews Federal Credit Union,5.0,—,3.95%,$0,—,3.95
+Barclays,4.8,$0,3.90%,$0,$0,3.9
+Sallie Mae Bank,4.8,$0,3.90%,$0,$0,3.9
+SmartyPig,4.6,$0,3.90%,$0,—,3.9
+Affirm,4.6,$0,3.85%,$0,$0,3.85
+Amboy Direct,4.5,—,3.82%,$1,$1,3.82
+"Laurel Road, A Brand of KeyBank N.A.",4.6,$0,3.80%,$0,$0,3.8
+Synchrony Bank,4.8,$0,3.80%,$0,$0,3.8
+CNB Bank Direct,4.6,$0,3.80%,$1,$100,3.8
+GreenState Credit Union,4.6,—,3.75%,$0,$1,3.75
+Quontic Bank,4.8,$0,3.75%,$0,$100,3.75
+USALLIANCE Financial,3.5,$0,3.75%,$500,—,3.75
+Valley Direct,4.9,$0,3.75%,$0,$1,3.75
+DollarSavingsDirect,4.6,$0,3.75%,$0,$1,3.75
+MySavingsDirect,4.6,$0,3.75%,$0,$1,3.75
+Citizens,4.7,$0,3.70%,$0,$0,3.7
+Lafayette Federal Credit Union,4.3,—,3.66%,$20k,$50,3.66
+Marcus by Goldman Sachs,3.7,$0,3.65%,$0,$0,3.65
+Citi,3.5,$4.50,3.60%,$0,$0,3.6
+Premier Members Credit Union,4.2,—,3.56%,$15k,—,3.56
+BMO Alto,3.5,$0,3.50%,$0,$0,3.5
+Ally Bank,4.9,$0,3.50%,$0,$0,3.5
+Discover®,3.9,$0,3.50%,$0,$0,3.5
+EmigrantDirect.com,4.6,$0,3.50%,$0,$1,3.5
+Ideal Credit Union,3.4,—,3.45%,$25k,$25k,3.45
+BankUnited,4.7,$0,3.35%,$0,$50,3.35
+American Heritage Credit Union,2.0,$10,3.30%,$10k,$10k,3.3
+Northpointe Bank,3.8,—,3.25%,$25k,$100,3.25
+FNBO Direct,4.8,$0,3.25%,$0,$1,3.25
+Digital Federal Credit Union (DCU),4.7,$0,3.25%,$0,$0,3.25
+Gateway First Bank,4.1,$10,3.25%,$0,$1k,3.25
+First National Bank of America,3.4,—,3.25%,$1k,$1k,3.25
+Forbright Bank,4.8,$0,3.15%,$10k,$250,3.15
+Alliant Credit Union,4.0,$0,3.10%,$100,$5,3.1
+Hanmi Bank,4.7,—,3.00%,$0,—,3.0
+mph.bank,4.6,—,3.00%,$0,—,3.0
+Abound Credit Union,5.0,—,2.96%,$0,—,2.96
+PenFed Credit Union,4.7,$0,2.80%,$0,$5,2.8
+Chartway Federal Credit Union,4.0,—,2.50%,$100,—,2.5
+Dow Credit Union,4.7,—,2.28%,$0,$0,2.28
+Farmers Insurance Federal Credit Union,4.6,$0,2.00%,$0,$0,2.0
+M.Y. Safra Bank,2.9,$5,2.00%,$5k,$100,2.0
+The State Exchange Bank,4.4,—,1.90%,$0,$1,1.9
+BankPurely,4.5,—,1.50%,$0,$100,1.5
+iGObanking,4.6,$0,1.50%,$0,$100,1.5
+American Bank,4.8,$0,1.50%,$0,$1,1.5
+Amalgamated Bank,4.8,—,1.36%,$100,—,1.36
+Banesco USA,3.0,$10,1.35%,$300,$100,1.35
