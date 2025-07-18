@@ -1,0 +1,76 @@
+BankName,Rating,ServiceCharge,APY,MinEarn,MinDeposit,APY_Value
+Primis Bank,4.5,—,4.20%,$0,$1,4.2
+Forbright Bank,3.4,$0,3.00%,$2.5k,$25,3.0
+First Bank (MO),5.0,—,3.00%,$0,—,3.0
+Paramount Bank (MO),4.6,$0,2.00%,$0,$100,2.0
+CFG Bank,3.7,—,1.75%,$20k,$50,1.75
+Vibrant Credit Union,4.2,$0,1.50%,$0,$0,1.5
+MainStreet Bank,3.8,$15,1.25%,$25k,$50,1.25
+National Cooperative Bank,3.6,$15,1.16%,$0,$0,1.16
+American Bank,4.4,$0,1.00%,$0,$1,1.0
+Bask Bank,4.6,$0,1.00%,$0,$0,1.0
+NASA Federal Credit Union,3.8,$10,1.00%,$0,$0,1.0
+Notre Dame Federal Credit Union,3.0,—,1.00%,$5k,—,1.0
+Amalgamated Bank,4.0,—,0.55%,$2.5k,—,0.55
+State Bank of India (California),4.3,—,0.50%,$100,$100,0.5
+Utah First Federal Credit Union,3.4,$0,0.50%,$25k,—,0.5
+Communitywide Federal Credit Union,4.4,—,0.50%,$1,$5,0.5
+INOVA Federal Credit Union,4.0,$7.50,0.50%,$2k,$10,0.5
+American 1 Credit Union,3.1,$5,0.50%,$2k,—,0.5
+CEFCU,3.1,$6,0.45%,$2.5k,$2.5k,0.45
+PenFed Credit Union,4.1,$10,0.35%,$20k,$25,0.35
+Wells Fargo Bank,3.8,$35,0.35%,$0,$25,0.35
+Rising Bank,3.6,$0,0.30%,$1k,$1k,0.3
+Northpointe Bank,3.2,—,0.25%,$25k,$2.5k,0.25
+Travis Credit Union,3.1,$7.50,0.25%,$10k,$50,0.25
+Premier Members Credit Union,3.8,$9.95,0.25%,$0,$25,0.25
+Pima Federal Credit Union,4.2,$0,0.25%,$0,—,0.25
+Greenwood Credit Union,3.4,$7,0.25%,$1k,$5,0.25
+CIT Bank,4.4,$0,0.25%,$25k,$100,0.25
+EverBank,4.6,$0,0.25%,$0,$100,0.25
+Dow Credit Union,4.2,—,0.25%,$0,$0,0.25
+Giantbank.com,3.6,—,0.25%,$1k,$100,0.25
+Alliant Credit Union,4.6,$0,0.25%,$0,$25,0.25
+Ally Bank,4.6,$0,0.25%,$15k,$0,0.25
+Newtown Savings Bank,3.2,$25,0.20%,$0,$25,0.2
+Service Credit Union,4.0,—,0.15%,$0,—,0.15
+MutualOne Bank,3.8,$8,0.15%,$5k,$100,0.15
+Farmers & Merchants Bank of Central California,4.4,$0,0.15%,$5k,$50,0.15
+Affinity Plus Federal Credit Union,3.5,$6,0.13%,$200,—,0.13
+Presidential Bank (MD),4.2,$5,0.12%,$0,$1.5k,0.12
+American Heritage Credit Union,2.2,$10,0.11%,$7.5k,$7.5k,0.11
+Star One Credit Union,4.0,$0,0.10%,$0,$25,0.1
+Latino Credit Union,3.8,$2,0.10%,$0,$0,0.1
+NuVision Federal Credit Union,2.2,$25,0.10%,$25k,$100,0.1
+OneUnited Bank,3.1,$20,0.10%,$100,$500,0.1
+Pacific Service Credit Union,2.6,$10,0.10%,$7.5k,$0,0.1
+Partners 1St Federal Credit Union,3.4,$7.50,0.10%,$0,—,0.1
+Pennsylvania State Employees Credit Union,4.2,$0,0.10%,$0,—,0.1
+Prime Alliance Bank,4.2,$0,0.10%,$15k,$1,0.1
+Self-Help Federal Credit Union,3.9,$5,0.10%,$0,$0,0.1
+Redwood Credit Union,3.7,$3,0.10%,$10k,—,0.1
+TAB Bank,3.3,$8,0.10%,$1,$25,0.1
+Spectrum Credit Union,3.8,$0,0.10%,$500,—,0.1
+SRP Federal Credit Union,3.2,—,0.10%,$0,—,0.1
+United Security Bank (CA),4.0,$0,0.10%,$100,$100,0.1
+The Federal Savings Bank,3.5,—,0.10%,$100,—,0.1
+Technology Credit Union,3.0,$0,0.10%,$1.5k,$0,0.1
+HomeStreet Bank,2.6,$10,0.10%,$10k,$2.5k,0.1
+La Capitol Federal Credit Union,2.8,$8,0.10%,$2.5k,$2.5k,0.1
+Chevron Federal Credit Union,3.7,$0,0.10%,$500,—,0.1
+Hanscom Federal Credit Union,3.6,$9.95,0.10%,$0,$0,0.1
+bankESB,4.2,$0,0.10%,$25k,$100,0.1
+Advancial,4.0,$0,0.10%,$10k,$0,0.1
+Bank of Blue Valley,3.6,$12,0.10%,$0,$500,0.1
+Capital One,4.3,$0,0.10%,$0,$0,0.1
+Golden 1 Credit Union,3.4,—,0.10%,$10k,—,0.1
+CoVantage Credit Union,3.8,$0,0.10%,$500,—,0.1
+Credit Human,3.6,$5,0.10%,$0,$25,0.1
+First Flight Federal Credit Union,3.8,—,0.10%,$0,—,0.1
+Fort Bragg Federal Credit Union,2.4,$5.95,0.10%,$2.5k,—,0.1
+GECU,3.3,$0,0.10%,$2.5k,$0,0.1
+Genisys Credit Union,2.4,$10,0.10%,$1.5k,$1.5k,0.1
+Exchange Bank (CA),3.6,$20,0.07%,$10k,—,0.07
+Zions Bank,3.0,$10,0.06%,$5k,$50,0.06
+1st Nor Cal Credit Union,2.9,$0,0.05%,$10k,—,0.05
+Affinity Federal Credit Union,2.6,$7,0.05%,$1k,—,0.05
